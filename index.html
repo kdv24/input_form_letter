@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+		<link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
+		<script src="js/jquery-1.11.1.js"></script>
+		<script src="js/scripts.js"></script>
+				
+		<title>Form Letter Input</title>
+	</head>
+
+	<body>
+		<h1>Form Letter Input</h1>
+		<h5 class="author">adapted by Kelly with the help of Epicodus</h5>
+
+		<p class="intro">Thanks for your interest in my little form.  If you'd like to receive updates when new forms or madlibs are created, please fill in the information requested below.  Your privacy is important to me so answers will only be shared with those who offer to pay me large sums of money; no not really, I just wanted to see if anyone reads this.  All information will be kept confidential.  Really.  Answer away with reckless abandon (and accountant-like accuracy please).  </p>
+
+
+	<div class="container">
+	<h4>Please complete carefully.</h4>
+		<div id="blanks">
+		<form>
+		  <div class="form-group">
+		    <label for="firstName">First Name</label>
+		    <input id="firstName" class="form-control" type="text">
+		  </div>
+		  <div class="form-group">
+		    <label for="lastName">Last Name</label>
+		    <input type="text" class="form-control" id="lastName">
+		  </div>
+		  <div class="form-group">
+		    <label for="address">Street Address</label>
+		    <input type="text" class="form-control" id="address">
+		  </div>
+		  <div class="form-group">
+		    <label for="city">City</label>
+		    <input type="text" class="form-control" id="city">
+		  </div>
+		  <div class="form-group">
+		    <label for="state">State</label>
+		    <input type="text" class="form-control" id="state">
+		  </div>
+		  <div class="form-group">
+		    <label for="zip">Zipcode</label>
+		    <input type="text" class="form-control" id="zip">
+		  </div>
+		  <div class="form-group">
+		    <label for="email">Email Address</label>
+		    <input type="text" class="form-control" id="email">
+		  </div> 
+		  <div id="submit">
+			  <button type="submit" class="btn btn-primary">Submit</button>
+			  <p>Please add my name to your list of select individuals who are allowed to receive updates.</p>
+		  </div>
+		</form>
+		</div>
+	</div>
+		<br>
+	<div id="formLetter">
+		<span class="firstName"></span>
+		<span class="lastName"></span>
+		<br>
+		<div id="street-address">
+			<span class="address"></span><br>
+			<span class="city"></span>
+			<span class="state"></span>
+			<span class="zip"></span>	
+		</div>		
+		<br><br>
+		<p>Dear <span class="firstName"></span>,<br> Thank you for your interest in my forms and mad libs.  I will continue to do my best to provide you with interesting and informative products.  Please feel free to contact me with any positive feedback you may have.  Otherwise, please keep it to yourself until I have learned more about how to do this.</p>
+		<br>
+		<p>Sincerely,</p>
+		<br>
+		<p>Me<br>Your host</p>
+	</div>
+	</body>
+</html>	

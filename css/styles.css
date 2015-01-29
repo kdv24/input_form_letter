@@ -1,0 +1,40 @@
+body {
+
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.author {
+  text-align: center;
+}
+
+.intro {
+  margin: 5% 0%;
+  text-align: justify;
+}
+
+#formLetter {
+  display: none;
+}
+
+.container {
+	margin: 0%;
+}
+
+#submit {
+	display: inline-block;
+	width: 100%;
+}
+
+#submit p {
+	float: left;
+	margin: 1.5% 0% 0% 2%;
+}
+
+#submit button {
+	float: left;
+}
